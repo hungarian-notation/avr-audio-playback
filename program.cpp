@@ -64,7 +64,7 @@ void twi_init()
 {
 }
 
-#define TWI_RAISE_ERROR(EXPECT) 				\
+#define TWI_RAISE_ERROR(EXPECT) 		        \
 { 												\
 	send_marks(5); 								\
 	send_signal(ISR_INVOCATIONS); 				\
